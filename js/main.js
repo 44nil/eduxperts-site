@@ -22,16 +22,16 @@ const translations = {
     'svc-desc-2': 'Kendi ürünlerimizi de sahaya sürdüğümüz için her projeye uzun vadeli bakıyoruz.',
     'card-cloud-title': 'ÖLÇEKLENEBİLİR BULUT & SAAS',
     'card-cloud-meta': 'BULUT & SAAS · NEXT.JS & AWS',
-    'card-cloud-desc': 'Sıfırdan kurulum ya da mevcut platformunuzu modernize ederek, modern mimarilerle üretim kalitesinde, çok kiracılı (multi-tenant) bulut yazılımları geliştiriyoruz. Altyapı mühendisliğimiz, EduQR gibi kendi ürünlerimizi de güçlendiriyor.',
+    'card-cloud-desc': 'İster sıfırdan kuralım ister mevcut platformunuzu modernize edelim, birden çok müşteriye tek altyapıdan hizmet verebilen (multi-tenant), üretime hazır bulut yazılımları geliştiriyoruz. Bu altyapı tecrübesini kendi ürünümüz EduQR\'da da kullanıyoruz.',
     'card-mobile-title': 'MOBİL MÜHENDİSLİK',
     'card-mobile-meta': 'MOBİL MÜHENDİSLİK · FLUTTER & REACT NATIVE',
-    'card-mobile-desc': 'Optimize edilmiş çapraz platform uygulamalarını global uygulama mağazalarında yayınlıyoruz. Canlıda yayınladığımız uygulama ve oyunlarımızdan edindiğimiz deneyimle bellek yönetimi, gerçek zamanlı veri senkronizasyonu ve yüksek FPS arayüz döngülerine özellikle önem veriyoruz.',
+    'card-mobile-desc': 'Çapraz platform mobil uygulamaları optimize edip global mağazalarda yayınlıyoruz. Kendi canlı uygulama ve oyunlarımızdan gelen tecrübeyle bellek yönetimine, gerçek zamanlı veri senkronizasyonuna ve akıcı, yüksek FPS\'li arayüzlere özellikle önem veriyoruz.',
     'card-edtech-title': 'EĞİTİM TEKNOLOJİSİ ÇÖZÜMLERİ',
     'card-edtech-meta': 'EĞİTİM TEKNOLOJİSİ · LMS & İÇERİK',
-    'card-edtech-desc': 'Güvenilir Öğrenme Yönetim Sistemleri (LMS) ve etkileşimli e-öğrenme içerikleri geliştiriyoruz. Modern teknolojileri kullanarak öğretim deneyimini güçlendiriyor, içeriği tüm cihazlarda erişilebilir kılıyoruz.',
+    'card-edtech-desc': 'Güvenilir Öğrenme Yönetim Sistemleri (LMS) ve etkileşimli e-öğrenme içerikleri geliştiriyoruz. Öğretim deneyimini modern teknolojiyle güçlendiriyor, içeriği her cihazdan erişilebilir hale getiriyoruz.',
     'card-eu-title': 'AB & AR-GE DANIŞMANLIĞI',
     'card-eu-meta': 'AB & AR-GE · HORIZON & ERASMUS+',
-    'card-eu-desc': 'AB fonlama araştırması, teknik danışmanlık, proje başvurularının hazırlanması ve sunumu konusunda kapsamlı destek sağlıyoruz. Erasmus+ ve Horizon çerçevelerinde kültürler arası öğrenmeyi teşvik ediyor, ağlar kuruyor ve uluslararası ortaklıkları yönetiyoruz.',
+    'card-eu-desc': 'EduXperts olarak, yazılım ve eğitim teknolojileri (EdTech) odağındaki yenilikçi fikirlerimizi uluslararası boyuta taşımak amacıyla AB ve Ar-Ge fon mekanizmalarını aktif şekilde kullanıyoruz. Erasmus+ ve Horizon çerçeve programlarında, doğrudan başvuru sahibi veya stratejik konsorsiyum ortağı olarak kendi projelerimizi hayata geçiriyoruz. Kültürler arası öğrenmeyi teşvik eden dijital platformlar geliştiriyor, uluslararası ağlar kuruyor ve küresel ortaklık süreçlerimizi kendi bünyemizde uçtan uca yönetiyoruz.',
     'card-eng-title': 'MÜHENDİSLİK KÜLTÜRÜ',
     'card-eng-meta': 'EDUXPERTS · MÜHENDİSLİK KÜLTÜRÜ',
     'card-eng-desc': 'Temiz kod, sağlam mimari, sürdürülebilir sistemler. Teslim edip geçmiyoruz — her projeyi baştan itibaren test kapsamı, CI/CD otomasyonu ve güvenliği ön planda tutan uygulamalarla inşa ediyoruz, böylece teslimden uzun süre sonra bile bakımı kolay ve sürdürülebilir kalıyor.',
@@ -141,7 +141,7 @@ const translations = {
     'card-edtech-desc': 'We engineer reliable Learning Management Systems (LMS) and interactive e-learning courseware. We use modern technologies to enhance the teaching experience, making content accessible across all devices.',
     'card-eu-title': 'EU & R&D CONSULTING',
     'card-eu-meta': 'EU & R&D · HORIZON & ERASMUS+',
-    'card-eu-desc': 'We provide comprehensive EU funding research, technical consultation, preparation, and submission of project applications. We promote intercultural learning, building networks, and managing international partnerships under Erasmus+ and Horizon frameworks.',
+    'card-eu-desc': 'As EduXperts, we actively leverage EU and R&D funding mechanisms to bring our innovative ideas in software and educational technology (EdTech) to an international scale. Within the Erasmus+ and Horizon framework programmes, we carry out our own projects either as direct applicants or as strategic consortium partners. We develop digital platforms that foster intercultural learning, build international networks, and manage our global partnership processes end-to-end in-house.',
     'card-eng-title': 'ENGINEERING CULTURE',
     'card-eng-meta': 'EDUXPERTS · ENGINEERING CULTURE',
     'card-eng-desc': 'Clean code, solid architecture, sustainable systems. We don\'t just ship and leave — every project is built with test coverage, CI/CD automation, and security-first practices from day one, so it stays maintainable and easy to hand over long after launch.',
@@ -224,7 +224,7 @@ const translations = {
   }
 };
 
-let currentLang = 'en';
+let currentLang = 'tr';
 
 function setLanguage(lang) {
   currentLang = lang;
@@ -745,3 +745,6 @@ window.setLanguage = function(lang) {
   _origSetLang(lang);
   updateMarquee(lang);
 };
+
+// Default the site to Turkish on load
+window.setLanguage('tr');
