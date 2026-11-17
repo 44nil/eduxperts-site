@@ -233,9 +233,9 @@ nav.scrolled {
 
 .hero-title {
   font-family: var(--font-display);
-  font-size: clamp(52px, 7vw, 96px);
+  font-size: clamp(40px, 4.8vw, 72px);
   font-weight: 700;
-  line-height: 0.95;
+  line-height: 1;
   letter-spacing: -0.03em;
   color: var(--black);
   margin-bottom: 24px;
@@ -249,7 +249,13 @@ nav.scrolled {
 .hero-sub {
   font-size: 15px; line-height: 1.75;
   color: var(--gray-500); font-weight: 300;
-  max-width: 400px; margin-bottom: 40px;
+  max-width: 400px; margin-bottom: 20px;
+}
+.hero-proof {
+  font-family: var(--font-mono); font-size: 11px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  color: var(--gray-500);
+  max-width: 460px; margin-bottom: 36px;
 }
 
 .hero-actions { display: flex; gap: 16px; align-items: center; }
@@ -2081,6 +2087,13 @@ footer { background: var(--black); border-top: 1px solid var(--gray-800); positi
     pointer-events: none;
 }
 
+.game-also {
+    margin-top: 14px;
+    font-size: 13px; color: var(--gray-500);
+}
+.game-also a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.game-also a:hover { color: var(--black); }
+
 /* GAME SCENE — animated runner + studio brand, inside the phone screen */
 .game-scene {
     position: absolute; inset: 5px;
@@ -2170,4 +2183,10 @@ footer { background: var(--black); border-top: 1px solid var(--gray-800); positi
     font-family: var(--font-mono) !important; font-weight: 500 !important;
     font-size: 8px !important; letter-spacing: 0.14em !important;
     color: var(--gray-500) !important;
+}
+
+/* Touch devices: no custom cursor (it sat stuck in the top-left corner) */
+@media (hover: none), (pointer: coarse) {
+  .cursor, .cursor-ring { display: none !important; }
+  body { cursor: auto; }
 }
