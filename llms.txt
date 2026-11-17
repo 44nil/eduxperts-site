@@ -1,24 +1,31 @@
 # EduXperts
 
-> EduXperts (EduXperts Eğitim Danışmanlık ve Yazılım A.Ş.) is a software studio and EU-project consultancy based in Türkiye. We build web, mobile, and AI software, run our own products, and provide Erasmus+/EU-funding consulting and training.
+> EduXperts (EduXperts Eğitim Teknoloji Danışmanlık Ticaret Limited Şirketi) is an education technology and software company based in Türkiye. We build web, mobile and AI software for schools, training providers and companies, run our own live products (including a mobile game studio), and take part in EU-funded Erasmus+ projects.
 
 ## Company
 
 - Website: https://eduxperts.com.tr/
-- What we do: custom web/mobile/AI software development, SaaS platforms, EdTech (LMS) solutions, EU funding & Erasmus+ project consulting.
-- Own products: [EduQR](https://eduqr.tr) — a digital menu system for restaurants, compliant with Turkish Trade Ministry regulations.
+- What we do: custom web/mobile/AI software development, SaaS platforms, EdTech solutions (LMS, e-learning content, gamification), EU funding & Erasmus+ project work, corporate training.
+- Own products:
+  - [EduQR](https://eduqr.tr): a digital price-list / QR menu system, compliant with Turkish Trade Ministry price-tag regulations.
+  - EduXperts Game Studio: our mobile games. [Marina Rush](https://eduxperts.com.tr/marina/) (boat-jam puzzle, 1750 levels, iOS and Android, free), Pizza Run (iOS) and Pixel Art Club (iOS and Android).
+- Gamification: we bring the levels, rewards and progress mechanics we use in our own games into learning products.
 - We are a partner organization on "StartupLab", an EU-funded Erasmus+ KA210-ADU project (Project Reference: 2025-1LT01-KA210-ADU-000355499, Oct 2025 – Mar 2027) alongside partners in Lithuania and France.
 
 ## Pages
 
 - [Homepage](https://eduxperts.com.tr/): services, products, EU project, courses overview, FAQ.
+- [Game Studio](https://eduxperts.com.tr/studio.html): our mobile games and what we learned building them.
+- [Marina Rush](https://eduxperts.com.tr/marina/): store links, playable demo, social accounts.
 - [Courses](https://eduxperts.com.tr/courses.html): Business skills training and Erasmus+ KA1 courses for the education sector.
+- [News](https://eduxperts.com.tr/news.html): product launches, project meetings and training sessions.
 
 ## Services
 
 - Custom web, mobile, and AI/backend software development.
 - Enterprise-grade, multi-tenant SaaS platforms.
-- Learning Management Systems (LMS) and e-learning content.
+- Learning Management Systems (LMS), e-learning content and gamification.
+- Mobile apps and games for iOS and Android, including App Store and Google Play publishing.
 - EU funding research and Erasmus+/Horizon project consulting.
 
 ## Courses

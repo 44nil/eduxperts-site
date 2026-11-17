@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PXQN838J');</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Marina Rush · Boat Jam Puzzle</title>
+<meta name="description" content="Marina Rush: a boat-jam puzzle with 1750 levels. Free on the App Store and Google Play. Try a level right in your browser." />
+<link rel="canonical" href="https://eduxperts.com.tr/marina/" />
+<meta name="theme-color" content="#0b6bcb" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="EduXperts Game Studio" />
+<meta property="og:title" content="Marina Rush · Boat Jam Puzzle" />
+<meta property="og:description" content="1750 levels of boat puzzles. Free on the App Store and Google Play." />
+<meta property="og:url" content="https://eduxperts.com.tr/marina/" />
+<meta property="og:image" content="https://eduxperts.com.tr/assets/images/studio/marina-rush-art.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://eduxperts.com.tr/assets/images/studio/marina-rush-art.jpg" />
+<link rel="icon" href="../assets/images/studio/marina-rush-icon.jpg" />
+<link rel="apple-touch-icon" href="../assets/images/studio/marina-rush-icon.jpg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800;900&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+html { background: #0b6bcb; }
+body {
+  min-height: 100svh; color: #fff; font-family: 'Instrument Sans', system-ui, sans-serif;
+  background: radial-gradient(120% 70% at 50% 0%, #3aa3f0 0%, #0b6bcb 55%, #07539f 100%);
+  display: flex; justify-content: center;
+}
+.page { width: 100%; max-width: 440px; padding: 28px 20px calc(36px + env(safe-area-inset-bottom)); display: flex; flex-direction: column; align-items: center; text-align: center; }
+
+.icon { width: 96px; height: 96px; border-radius: 24px; border: 4px solid #fff; box-shadow: 0 16px 34px rgba(0,0,0,0.25); animation: pop 0.7s cubic-bezier(.2,1.6,.4,1) both; }
+h1 { font-family: Inter, sans-serif; font-size: 34px; font-weight: 800; letter-spacing: -0.03em; margin-top: 16px; line-height: 1; }
+.tag { font-size: 16px; line-height: 1.45; color: rgba(255,255,255,0.88); margin-top: 10px; max-width: 320px; }
+.facts { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-top: 14px; }
+.facts span { font-size: 12.5px; font-weight: 600; background: rgba(255,255,255,0.16); padding: 6px 11px; border-radius: 100px; }
+
+.phone {
+  position: relative; width: 44%; max-width: 180px; aspect-ratio: 9 / 16.6; margin: 22px 0 0;
+  background: #0c0c0c; border-radius: 30px; padding: 7px; box-shadow: 0 30px 60px rgba(0,0,0,0.35);
+  transform: rotate(-3deg); animation: float 6s ease-in-out infinite;
+}
+.phone video { width: 100%; height: 100%; object-fit: cover; border-radius: 24px; display: block; background: #2ba8ea; }
+
+.btns { width: 100%; display: flex; flex-direction: column; gap: 10px; margin-top: 24px; }
+.btn {
+  display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%;
+  font-family: 'Instrument Sans', sans-serif; font-size: 16px; font-weight: 600; text-decoration: none; cursor: pointer;
+  border-radius: 18px; padding: 16px 18px; border: 2px solid rgba(255,255,255,0.55); color: #fff; background: transparent;
+  transition: transform 0.15s ease, background 0.2s;
+}
+.btn:active { transform: scale(0.97); }
+.btn svg { width: 22px; height: 22px; flex: none; }
+.btn.main { background: #fff; color: #0b6bcb; border-color: #fff; font-size: 18px; padding: 19px 18px; box-shadow: 0 14px 30px rgba(0,0,0,0.2); }
+.btn.main small { display: block; font-size: 12px; font-weight: 500; opacity: 0.7; }
+.btn.main span { text-align: left; line-height: 1.15; }
+.btn:not(.main) small { display: none; }
+.btn.demo { background: #ffe066; color: #3a2e00; border-color: #ffe066; }
+.or { font-size: 13px; color: rgba(255,255,255,0.7); margin: 6px 0 -2px; }
+
+.social { display: flex; gap: 10px; margin-top: 26px; width: 100%; }
+.social a {
+  flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; color: #fff;
+  font-size: 14px; font-weight: 600; padding: 13px 10px; border-radius: 16px; background: rgba(255,255,255,0.14);
+}
+.social svg { width: 18px; height: 18px; }
+
+.foot { margin-top: 30px; font-size: 12.5px; color: rgba(255,255,255,0.7); }
+.foot a { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+.legal { margin-top: 10px; font-size: 12px; display: flex; gap: 14px; justify-content: center; }
+.legal a { color: rgba(255,255,255,0.7); text-decoration: none; }
+.lang { position: absolute; top: 14px; right: 16px; font-size: 12px; font-weight: 600; color: rgba(255,255,255,0.8); background: rgba(255,255,255,0.14); border: 0; border-radius: 100px; padding: 6px 10px; cursor: pointer; }
+
+/* demo modal */
+.modal { position: fixed; inset: 0; z-index: 50; background: rgba(4,30,60,0.8); backdrop-filter: blur(6px); display: none; align-items: center; justify-content: center; padding: 16px; }
+.modal.open { display: flex; }
+.frame { position: relative; height: min(84svh, 760px); aspect-ratio: 9 / 16; max-width: calc(100vw - 32px); border-radius: 28px; overflow: hidden; background: #2ba8ea; border: 6px solid #0c0c0c; }
+.frame iframe { width: 100%; height: 100%; border: 0; display: block; }
+.close { position: absolute; top: 10px; right: 10px; z-index: 2; width: 38px; height: 38px; border-radius: 50%; border: 0; background: #fff; color: #0c0c0c; font-size: 16px; cursor: pointer; box-shadow: 0 6px 16px rgba(0,0,0,0.3); }
+
+@keyframes pop { from { transform: scale(0.6) rotate(-12deg); opacity: 0; } }
+@keyframes float { 50% { transform: rotate(-1deg) translateY(-8px); } }
+@media (prefers-reduced-motion: reduce) { .icon, .phone { animation: none; } }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "Marina Rush",
+  "url": "https://eduxperts.com.tr/marina/",
+  "operatingSystem": "iOS, Android",
+  "applicationCategory": "GameApplication",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "TRY"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "EduXperts",
+    "legalName": "EduXperts Eğitim Teknoloji Danışmanlık Ticaret Limited Şirketi",
+    "url": "https://eduxperts.com.tr/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "EduXperts",
+    "legalName": "EduXperts Eğitim Teknoloji Danışmanlık Ticaret Limited Şirketi",
+    "url": "https://eduxperts.com.tr/"
+  },
+  "sameAs": [
+    "https://apps.apple.com/tr/app/marina-rush/id6814644512",
+    "https://play.google.com/store/apps/details?id=com.eduxperts.marinatraffic"
+  ],
+  "image": "https://eduxperts.com.tr/assets/images/studio/marina-rush-art.jpg",
+  "description": "İskelede geçen, 1750 bölümlük bir tekne trafiği bulmacası. İnternetsiz oynanır.",
+  "inLanguage": [
+    "tr",
+    "en",
+    "es"
+  ]
+}
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXQN838J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<button class="lang" id="lang" type="button">EN</button>
+
+<main class="page">
+  <img class="icon" src="../assets/images/studio/marina-rush-icon.jpg" alt="Marina Rush" width="96" height="96">
+  <h1>Marina Rush</h1>
+  <p class="tag" data-t="tag">İskelede bir tekne trafiği bulmacası. Her yolcuyu kendi rengindeki tekneye bindir.</p>
+  <div class="facts"><span data-t="f1">1750 bölüm</span><span data-t="f2">Ücretsiz</span><span data-t="f3">İnternetsiz</span></div>
+
+  <div class="phone"><video src="../assets/images/studio/marina-rush-gameplay.mp4" poster="../assets/images/studio/marina-rush-poster.jpg" muted loop playsinline autoplay preload="metadata" aria-label="Marina Rush gameplay"></video></div>
+
+  <div class="btns" id="btns">
+    <a class="btn" id="ios" data-link="app_store" href="https://apps.apple.com/app/id6814644512" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.37 12.6c-.02-2.2 1.8-3.26 1.88-3.31-1.03-1.5-2.62-1.7-3.18-1.73-1.35-.14-2.64.8-3.33.8-.69 0-1.74-.78-2.87-.76-1.47.02-2.83.86-3.59 2.18-1.53 2.66-.39 6.6 1.1 8.76.73 1.06 1.6 2.24 2.73 2.2 1.1-.04 1.51-.71 2.84-.71 1.32 0 1.7.71 2.86.69 1.18-.02 1.93-1.07 2.65-2.13.84-1.22 1.18-2.41 1.2-2.47-.03-.01-2.3-.88-2.32-3.52zM14.2 6.13c.6-.73 1.01-1.75.9-2.76-.87.04-1.92.58-2.54 1.31-.56.64-1.05 1.67-.92 2.66.97.08 1.96-.49 2.56-1.21z"/></svg>
+      <span><small data-t="get">İndir</small>App Store</span>
+    </a>
+    <a class="btn" id="android" data-link="google_play" href="https://play.google.com/store/apps/details?id=com.eduxperts.marinatraffic" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.6 2.3c-.2.2-.3.6-.3 1v17.4c0 .4.1.8.3 1l.1.1 9.7-9.7v-.2L3.7 2.2l-.1.1zM16.6 15.3l-3.2-3.2v-.2l3.2-3.2.1.1 3.8 2.2c1.1.6 1.1 1.6 0 2.2l-3.8 2.2-.1-.1zM16.7 15.2 13.4 12l-9.8 9.8c.4.4 1 .4 1.7 0l11.4-6.6M16.7 8.8 5.3 2.2c-.7-.4-1.3-.4-1.7 0l9.8 9.8 3.3-3.2z"/></svg>
+      <span><small data-t="get">İndir</small>Google Play</span>
+    </a>
+    <p class="or" data-t="or">İndirmeden önce denemek ister misin?</p>
+    <button class="btn demo" id="demo" data-link="demo" type="button" data-t="demo">▶ Tarayıcıda bir bölüm oyna</button>
+  </div>
+
+  <div class="social">
+    <a href="https://www.tiktok.com/@marinarushgame" target="_blank" rel="noopener" data-link="tiktok">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 1 1-2.59-2.62c.27 0 .53.04.78.12V9.75a5.73 5.73 0 0 0-.78-.05 5.7 5.7 0 1 0 5.7 5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3a4.28 4.28 0 0 1-3.26-1.48z"/></svg>
+      TikTok
+    </a>
+    <a href="https://www.instagram.com/edux.perts" target="_blank" rel="noopener" data-link="instagram">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg>
+      Instagram
+    </a>
+  </div>
+
+  <p class="foot"><span data-t="by">Yapımcı:</span> <a href="../studio.html" data-link="studio">EduXperts Game Studio</a></p>
+  <p class="legal"><a href="https://eduxperts.com.tr/marinarush/privacy-policy.html" data-t="privacy">Gizlilik</a><a href="https://eduxperts.com.tr/marinarush/terms.html" data-t="terms">Kullanım Şartları</a><a href="https://eduxperts.com.tr/marinarush/support.html" data-t="support">Destek</a></p>
+</main>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="frame" id="frame"><button class="close" id="close" type="button" aria-label="Kapat">✕</button></div>
+</div>
+
+<script>
+(function () {
+  var T = {
+    tr: { tag: 'İskelede bir tekne trafiği bulmacası. Her yolcuyu kendi rengindeki tekneye bindir.', f1: '1750 bölüm', f2: 'Ücretsiz', f3: 'İnternetsiz', get: 'İndir', or: 'İndirmeden önce denemek ister misin?', demo: '▶ Tarayıcıda bir bölüm oyna', by: 'Yapımcı:', privacy: 'Gizlilik', terms: 'Kullanım Şartları', support: 'Destek' },
+    en: { tag: 'A boat-jam puzzle at the pier. Get every passenger onto a boat of their colour.', f1: '1750 levels', f2: 'Free', f3: 'Plays offline', get: 'Download on', or: 'Want to try it before you download?', demo: '▶ Play a level in your browser', by: 'Made by', privacy: 'Privacy', terms: 'Terms', support: 'Support' }
+  };
+  var lang = (navigator.language || 'tr').toLowerCase().indexOf('tr') === 0 ? 'tr' : 'en';
+  try { var saved = localStorage.getItem('marina-lang'); if (saved) lang = saved; } catch (e) {}
+  var langBtn = document.getElementById('lang');
+  function apply() {
+    document.documentElement.lang = lang;
+    document.querySelectorAll('[data-t]').forEach(function (el) { el.textContent = T[lang][el.getAttribute('data-t')]; });
+    langBtn.textContent = lang === 'tr' ? 'EN' : 'TR';
+  }
+  langBtn.addEventListener('click', function () { lang = lang === 'tr' ? 'en' : 'tr'; try { localStorage.setItem('marina-lang', lang); } catch (e) {} apply(); });
+  apply();
+
+  // Smart store button: the visitor's own store goes first and big
+  var ua = navigator.userAgent || '';
+  var isIOS = /iPhone|iPad|iPod/i.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+  var isAndroid = /Android/i.test(ua);
+  var ios = document.getElementById('ios'), android = document.getElementById('android'), btns = document.getElementById('btns');
+  if (isAndroid) { android.classList.add('main'); btns.insertBefore(android, ios); }
+  else { ios.classList.add('main'); }
+  var platform = isIOS ? 'ios' : isAndroid ? 'android' : 'desktop';
+
+  // Click tracking (Google Tag Manager): event "marina_link_click" with link + platform
+  window.dataLayer = window.dataLayer || [];
+  document.querySelectorAll('[data-link]').forEach(function (el) {
+    el.addEventListener('click', function () {
+      window.dataLayer.push({ event: 'marina_link_click', link: el.getAttribute('data-link'), platform: platform });
+    });
+  });
+
+  // Demo modal: the playable only loads when asked for
+  var modal = document.getElementById('modal'), frame = document.getElementById('frame');
+  function open() {
+    var f = document.createElement('iframe');
+    f.src = '../assets/images/studio/marina-rush-play.html';
+    f.title = 'Marina Rush demo';
+    f.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox');
+    frame.appendChild(f);
+    modal.classList.add('open'); modal.setAttribute('aria-hidden', 'false'); document.body.style.overflow = 'hidden';
+  }
+  function close() {
+    var f = frame.querySelector('iframe'); if (f) f.remove();
+    modal.classList.remove('open'); modal.setAttribute('aria-hidden', 'true'); document.body.style.overflow = '';
+  }
+  document.getElementById('demo').addEventListener('click', open);
+  document.getElementById('close').addEventListener('click', close);
+  modal.addEventListener('click', function (e) { if (e.target === modal) close(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+})();
+</script>
+</body>
+</html>
