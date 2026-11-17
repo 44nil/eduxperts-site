@@ -45,7 +45,7 @@ const translations = {
     'nx-live': '● oynanış',
     'nx-pr': 'Hızlı bir mutfak koşusu.',
     'nx-pa': 'Topluluk akışlı piksel çizim.',
-    'nx-say': 'Fikirden <img src="assets/images/studio/marina-rush-icon.jpg" alt=""> tasarıma, koddan <img src="assets/images/studio/pixel-art-icon.jpg" alt=""> mağaza yayınına <span class="sx-say-dino"></span> kadar her adım aynı ekipte.',
+    'nx-say': 'Fikirden <img src="/assets/images/studio/marina-rush-icon.jpg" alt=""> tasarıma, koddan <img src="/assets/images/studio/pixel-art-icon.jpg" alt=""> mağaza yayınına <span class="sx-say-dino"></span> kadar her adım aynı ekipte.',
     'nx-say-btn': 'Hizmetlerimiz →',
     'sx-lr-title': 'Oyunlarda öğrendik,<br><em>projelerinizde kullanıyoruz.</em>',
     'sx-lr1-fact': 'bölüm. Kolaydan zora, adım adım ilerleyen bir zorluk eğrisiyle.',
@@ -224,7 +224,7 @@ const translations = {
     'nx-live': '● gameplay',
     'nx-pr': 'A quick kitchen runner.',
     'nx-pa': 'Pixel drawing with a community feed.',
-    'nx-say': 'From idea <img src="assets/images/studio/marina-rush-icon.jpg" alt=""> to design, from code <img src="assets/images/studio/pixel-art-icon.jpg" alt=""> to store launch <span class="sx-say-dino"></span>, every step stays with one team.',
+    'nx-say': 'From idea <img src="/assets/images/studio/marina-rush-icon.jpg" alt=""> to design, from code <img src="/assets/images/studio/pixel-art-icon.jpg" alt=""> to store launch <span class="sx-say-dino"></span>, every step stays with one team.',
     'nx-say-btn': 'Our services →',
     'sx-lr-title': 'Learned in our games,<br><em>used in your projects.</em>',
     'sx-lr1-fact': 'levels, on a difficulty curve that climbs step by step from easy to hard.',
@@ -884,5 +884,6 @@ window.setLanguage = function(lang) {
   updateMarquee(lang);
 };
 
-// Default the site to Turkish on load
-window.setLanguage('tr');
+// Each page is built in one language (Turkish in the root, English under /en/);
+// start in the language the page was built in.
+window.setLanguage(document.documentElement.lang === 'en' ? 'en' : 'tr');

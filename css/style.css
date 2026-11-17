@@ -2204,3 +2204,6 @@ a.sc-arrow { color: inherit; text-decoration: none; }
   background: #ffe066; padding: 7px 12px; border-radius: 100px;
 }
 .game-learn::before { content: "★"; font-size: 12px; }
+
+/* TR / EN switch: links to the other language's page */
+a.lang-btn { text-decoration: none; display: inline-block; }

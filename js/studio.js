@@ -77,7 +77,7 @@
   var m = document.getElementById('stModal'), f = document.getElementById('stModalFrame');
   var btns = document.querySelectorAll('#stPlayBtn, .sx-story-play');
   function open() {
-    f.innerHTML = '<iframe src="assets/images/studio/marina-rush-play.html" title="Marina Rush demo" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" allow="autoplay"></iframe>';
+    f.innerHTML = '<iframe src="/assets/images/studio/marina-rush-play.html" title="Marina Rush demo" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" allow="autoplay"></iframe>';
     m.classList.add('open'); m.setAttribute('aria-hidden', 'false'); document.body.style.overflow = 'hidden';
   }
   function close() {

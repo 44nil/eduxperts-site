@@ -5,6 +5,21 @@ Landing page for Tridea, a software studio operating under [EduXperts Eğitim Da
 **Live products:**
 - [EduQR](https://eduqr.tr) — digital menu system
 
+## Languages (TR / EN)
+
+The site is built in two languages from one source:
+
+- Turkish pages live in the site root (`index.html`, `studio.html`, ...).
+- English pages live under `/en/` and are **generated**; don't edit them by hand.
+- Texts live in the `translations` table in `js/main.js` (keys in `data-i18n` attributes).
+  Page titles and descriptions live in `PAGE_META` in `tools/build-i18n.mjs`.
+
+After changing any text or page, rebuild both languages:
+
+```bash
+node tools/build-i18n.mjs
+```
+
 ## About
 
 A single-page, fully **static** site. No framework, build tooling, or backend dependency — the files can be opened directly in a browser or served from any static file host.

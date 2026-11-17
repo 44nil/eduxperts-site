@@ -5,7 +5,7 @@ const courseDetailsData = {
     type: "Business Course",
     title: "Project Cycle Management",
     subtitle: "Master the art of executing projects effectively and efficiently.",
-    image: "assets/images/courses/projectcycle.jpg",
+    image: "/assets/images/courses/projectcycle.jpg",
     description: `
       <p>Project management is the application of knowledge, skills and techniques to execute projects effectively and efficiently. It is a strategy for organizations that enables them to get results from the projects which are directed towards achieving the set goals, hence better competency in serving their clients.</p>
       <p>Most companies, institutions and organizations worldwide are adopting the use of projects in their day to day operations because of the role they play towards achieving their desired goal and objectives. And because of this, there is need for proper project management in order to achieve the goal and objectives.</p>
@@ -27,7 +27,7 @@ const courseDetailsData = {
     type: "Business Course",
     title: "Time Management",
     subtitle: "Maximize productivity and achieve a healthy work-life balance.",
-    image: "assets/images/courses/timemanagement.jpg",
+    image: "/assets/images/courses/timemanagement.jpg",
     description: `
       <p>Time management is the process of planning and exercising conscious control of time spent on specific activities, especially to increase effectiveness, efficiency, and productivity.</p>
       <p>The course introduces time management tools and techniques that allow you to manage your time more effectively and feel more in control. You will learn essential time management skills to manage time more efficiently, including how to plan activities and get tasks done in an effective time manner.</p>
@@ -49,7 +49,7 @@ const courseDetailsData = {
     type: "Business Course",
     title: "Communication Skills",
     subtitle: "Effective communication strategies for the modern workplace.",
-    image: "assets/images/courses/communicationskills.jpg",
+    image: "/assets/images/courses/communicationskills.jpg",
     description: `
       <p>Effective workplace communication is essential for almost every workplace process. From the ground employees up to management, every member of the workforce should work on improving their communication skills so that they can reduce conflicts and misunderstandings while improving efficiency and fostering growth.</p>
       <p>This training course introduces you to the main elements in the communication process. Even if you are a naturally good communicator, there are always opportunities to enhance your communication skills.</p>
@@ -71,7 +71,7 @@ const courseDetailsData = {
     type: "Business Course",
     title: "Entrepreneurship Education",
     subtitle: "From idea to execution: Building a successful business.",
-    image: "assets/images/courses/Entrepreneurship.jpg",
+    image: "/assets/images/courses/Entrepreneurship.jpg",
     description: `
       <p>Entrepreneurship is the act of creating a business or businesses while building and scaling it to generate a profit. Entrepreneurship refers to the concept of developing and managing a business venture in order to gain profit by taking several risks in the corporate world.</p>
       <p>Simply put, entrepreneurship is the willingness to start a new business. Entrepreneurship has played a vital role in the economic development of the expanding global marketplace.</p>
@@ -90,7 +90,7 @@ const courseDetailsData = {
     type: "Business Course",
     title: "Leadership and Team Building",
     subtitle: "Inspire your team and drive organizational success.",
-    image: "assets/images/courses/Leadership_v2.jpg",
+    image: "/assets/images/courses/Leadership_v2.jpg",
     description: `
       <p>Nowadays, it is widely accepted that a critical element of success for a team is the diversity of skills and personalities. This diversity can be harnessed in such a manner that team members can use their strengths in full but at the same time compensate for each other's weaknesses.</p>
       <p>In this respect, team work success largely relies on good communication in the team and the harmony in member relationships — team work is a great way to get things done.</p>
@@ -114,7 +114,7 @@ const courseDetailsData = {
     type: "Business Course",
     title: "Social Entrepreneurship",
     subtitle: "Creating positive social impact through business.",
-    image: "assets/images/courses/Social.jpg",
+    image: "/assets/images/courses/Social.jpg",
     description: `
       <p>Social entrepreneurship is a for-profit business model that strives to make a positive impact on social issues or the environment. Social entrepreneurship is the process by which individuals, startups and entrepreneurs develop and fund solutions that directly address social issues.</p>
       <p>A social entrepreneur, therefore, is a person who explores business opportunities that have a positive impact on their community, in society or the world. Social entrepreneurship is all about recognizing social problems and achieving social change by employing entrepreneurial principles, processes and operations.</p>
@@ -139,7 +139,7 @@ const courseDetailsData = {
     type: "Erasmus+ Course",
     title: "Inclusive Education",
     subtitle: "Ensuring access to quality education for all students by effectively meeting their diverse needs.",
-    image: "assets/images/courses/inclusive.jpg",
+    image: "/assets/images/courses/inclusive.jpg",
     description: `
       <p>Inclusive education is about ensuring access to quality education for all students by effectively meeting their diverse needs in a way that is responsive, accepting, respectful and supportive.</p>
       <p>Students participate in the education program in a common learning environment with support to diminish and remove barriers and obstacles that may lead to exclusion. Inclusive education is carried out in a common learning environment; that is, an educational setting where students from different backgrounds and with different abilities learn together in an inclusive environment.</p>
@@ -169,7 +169,7 @@ const courseDetailsData = {
     type: "Erasmus+ Course",
     title: "ICT in the Classroom",
     subtitle: "Modernizing education through technology integration and digital tools.",
-    image: "assets/images/courses/ict.jpg",
+    image: "/assets/images/courses/ict.jpg",
     description: `
       <p>Information and Communications Technology (ICT) can impact student learning when teachers are digitally literate and understand how to integrate it into curriculum.</p>
       <p>As ICT provision and use in European schools is improving, teachers need to be digitally literate and trained to use ICT — these approaches can lead to higher order thinking skills, provide creative and individualized options for students to express their understandings, and leave students better prepared to deal with ongoing technological change in education, workplace and society.</p>
@@ -198,7 +198,7 @@ const courseDetailsData = {
     type: "Erasmus+ Course",
     title: "Flipped Classroom",
     subtitle: "A blended learning strategy to increase student engagement.",
-    image: "assets/images/courses/flipped.jpg",
+    image: "/assets/images/courses/flipped.jpg",
     description: `
       <p>A flipped classroom is an instructional strategy and a type of blended learning, which aims to increase student engagement and learning by having pupils complete readings at home and work on live problem-solving during class time.</p>
       <p>In traditional classroom instruction, the teacher is typically the leader of a lesson, the focus of attention, and the primary disseminator of information during the class period. The flipped classroom intentionally shifts instruction to a learner-centered model, in which students are often initially introduced to new topics outside of school, freeing up classroom time for the exploration of topics in greater depth, creating meaningful learning opportunities.</p>
@@ -225,7 +225,7 @@ const courseDetailsData = {
     type: "Erasmus+ Course",
     title: "STEM to STEAM Education",
     subtitle: "Integrating Arts into Science, Technology, Engineering, and Mathematics.",
-    image: "assets/images/courses/stem.jpg",
+    image: "/assets/images/courses/stem.jpg",
     description: `
       <p>STEM is a curriculum based on the idea of educating students in four specific disciplines — science, technology, engineering and mathematics — in an interdisciplinary and applied approach. Rather than teach the four disciplines as separate and discrete subjects, STEM integrates them into a cohesive learning paradigm based on real-world applications.</p>
       <p>It is very important to involve students in useful and stimulating learning activities in which Science, Technology, Engineering, and Mathematics (the basic components of STEM education) connect with the Arts in a broader sense.</p>
@@ -252,7 +252,7 @@ const courseDetailsData = {
     type: "Erasmus+ Course",
     title: "Game-Based Learning",
     subtitle: "Enhancing student learning and engagement through active game techniques.",
-    image: "assets/images/courses/game.jpg",
+    image: "/assets/images/courses/game.jpg",
     description: `
       <p>Game based learning is an active learning technique where games are used to enhance student learning. The learning comes from playing the game and promotes critical thinking and problem solving skills. Game based learning is where game characteristics and principles are embedded within learning activities.</p>
       <p>The motivational psychology involved in game-based learning allows students to engage with educational materials in a playful and dynamic way. Game-based learning is not just creating games for students to play — it is designing learning activities that can incrementally introduce concepts, and guide users towards an end goal.</p>
@@ -278,7 +278,7 @@ const courseDetailsData = {
     type: "Erasmus+ Course",
     title: "Developing Tolerance",
     subtitle: "Fostering a multicultural and inclusive environment for immigrant students.",
-    image: "assets/images/courses/tolerance.jpg",
+    image: "/assets/images/courses/tolerance.jpg",
     description: `
       <p>Migration is an ongoing challenge across Europe. Education plays a crucial role in helping migrants and refugees settle in new countries and environments. Ensuring a safe and encouraging multi-cultural environment is crucial for all children to develop their potential.</p>
       <p>The development of a welcome culture is a crucial step towards the integration of international migrants. The course is designed for teachers and educators who want to understand intercultural communication and become familiar with multiculturalism.</p>
@@ -304,7 +304,7 @@ const courseDetailsData = {
     type: "Erasmus+ Course",
     title: "CLIL Method",
     subtitle: "Content and Language Integrated Learning for effective education.",
-    image: "assets/images/courses/clil.jpg",
+    image: "/assets/images/courses/clil.jpg",
     description: `
       <p>CLIL stands for Content and Language Integrated Learning. This means studying another subject (for example, science, history, or literature) and learning a language, such as English, at the same time — integrating the two subjects.</p>
       <p>This course gives a solid base of knowledge about this type of teaching, either for newly qualified teachers or those with more experience, and includes teaching strategies for planning and teaching successful CLIL lessons.</p>
@@ -329,7 +329,7 @@ const courseDetailsData = {
     type: "Erasmus+ Course",
     title: "Sustainable Development",
     subtitle: "Transformative education for a sustainable future.",
-    image: "assets/images/courses/sustainable.jpg",
+    image: "/assets/images/courses/sustainable.jpg",
     description: `
       <p>Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs.</p>
       <p>Many of the challenges facing humankind, such as climate change, water scarcity, inequality and hunger, can only be resolved at a global level and by promoting sustainable development: a commitment to social progress, environmental balance and economic growth.</p>
@@ -356,7 +356,7 @@ const courseDetailsData = {
     type: "Course",
     title: "Course Not Found",
     subtitle: "Please check the course link.",
-    image: "assets/images/courses/projectcycle.jpg",
+    image: "/assets/images/courses/projectcycle.jpg",
     description: "<p>We currently do not have details for this specific course.</p>",
     outcomes: [],
     programme: [],
