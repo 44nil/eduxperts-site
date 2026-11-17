@@ -2190,3 +2190,17 @@ footer { background: var(--black); border-top: 1px solid var(--gray-800); positi
   .cursor, .cursor-ring { display: none !important; }
   body { cursor: auto; }
 }
+
+/* Game Studio card on the home page: leads to studio.html */
+a.p-card-visual { color: inherit; text-decoration: none; cursor: pointer; }
+a.p-card-visual .onb-phone { transition: transform 0.5s cubic-bezier(.2,1.4,.4,1); }
+a.p-card-visual:hover .onb-phone { transform: translateY(-8px) rotate(-2deg); }
+a.sc-arrow { color: inherit; text-decoration: none; }
+.store-badge.studio-btn { background: var(--black); color: var(--white); border-color: var(--black); }
+.store-badge.studio-btn:hover { background: #0b6bcb; border-color: #0b6bcb; color: #fff; }
+.game-learn {
+  display: inline-flex; align-items: center; gap: 8px; margin-top: 14px;
+  font-size: 14px; font-weight: 500; color: var(--black);
+  background: #ffe066; padding: 7px 12px; border-radius: 100px;
+}
+.game-learn::before { content: "★"; font-size: 12px; }
