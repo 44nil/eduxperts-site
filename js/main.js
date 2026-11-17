@@ -475,21 +475,41 @@ function renderColored(text, classes, upto) {
 
 // TYPEWRITER
 function startTypewriter() {
+  const tr = document.documentElement.lang !== 'en';
+  const L = tr ? {
+    c1: "// eduxperts — 2020'den beri",
+    hi: 'console.log("Merhaba, biz EduXperts.");',
+    cond: 'if (fikrin) {',
+    yes: '  console.log("Birlikte yapalım.");',
+    no: '  console.log("Birlikte bulalım.");',
+    what: 'console.log("Eğitim, oyun, yazılım.");',
+    own: 'console.log("Bir kısmı da bizim.");',
+    end: '// ✓ hazırsan başlayalım.'
+  } : {
+    c1: '// eduxperts — since 2020',
+    hi: 'console.log("Hello, we\'re EduXperts.");',
+    cond: 'if (yourIdea) {',
+    yes: '  console.log("We\'ll build it.");',
+    no: '  console.log("Let\'s find it together.");',
+    what: 'console.log("Education, games, software.");',
+    own: 'console.log("Some of it is our own.");',
+    end: '// ✓ ready when you are.'
+  };
   const lines = [
-    { text: '// eduxperts.h — since: 2020', delay: 0 },
+    { text: L.c1, delay: 0 },
     { text: '', delay: 500 },
-    { text: 'console.log("Hello, we\'re EduXperts.");', delay: 800 },
+    { text: L.hi, delay: 800 },
     { text: '', delay: 2000 },
-    { text: 'if (yourIdea) {', delay: 2300 },
-    { text: '  console.log("We can build it.");', delay: 3100 },
-    { text: "} else {", delay: 4100 },
-    { text: "  console.log(\"Let's figure it out together.\");", delay: 4600 },
+    { text: L.cond, delay: 2300 },
+    { text: L.yes, delay: 3100 },
+    { text: '} else {', delay: 4100 },
+    { text: L.no, delay: 4600 },
     { text: '}', delay: 5700 },
     { text: '', delay: 6100 },
-    { text: 'console.log("We design, build, and ship software.");', delay: 6400 },
-    { text: 'console.log("Some of it is even our own.");', delay: 7400 },
+    { text: L.what, delay: 6400 },
+    { text: L.own, delay: 7400 },
     { text: '', delay: 8400 },
-    { text: '// ✓ ready when you are.', delay: 8700, isLast: true },
+    { text: L.end, delay: 8700, isLast: true },
   ];
 
   const codeBody = document.querySelector('.code-body');
